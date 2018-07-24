@@ -8,11 +8,10 @@ export class BasicFormComponent implements OnInit {
   form: any;
   powers: string[];
   submitted: boolean = false;
-  
+
   constructor() { }
-  
   ngOnInit() {
-    this.powers = ['Really Smart', 'Turbulent Breeze', 
+    this.powers = ['Really Smart', 'Turbulent Breeze',
                 'Super Hot', 'Weather Changer'];
   }
 
